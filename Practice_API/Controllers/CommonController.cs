@@ -14,7 +14,7 @@ namespace Practice_API.Controllers
         {
             _common = common;
         }
-
+        // Method by Parthi
         [HttpGet("GetListCountries")]
         public IActionResult GetListOfCountry()
         {
